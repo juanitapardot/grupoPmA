@@ -38,7 +38,6 @@ body{
 #portada, #resena, #compras{
     padding: 30px;
     display: block;
-    overflow: auto;
 }
 #compras{
     text-align: center;
@@ -48,7 +47,8 @@ body{
     float: left;
 }
 #imagen img {
-    margin: 0 auto;
+    width: 300px;
+    margin: 30px auto;
     display: block;
 }
 #datos{
@@ -98,4 +98,7 @@ body{
     padding: 20px 100px 70px 100px;
     color: white;
     text-align: center;
+  }
+  .botones{
+      margin: 0px auto;
   }
